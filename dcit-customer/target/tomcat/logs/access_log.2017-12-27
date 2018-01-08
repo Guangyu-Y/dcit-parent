@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:22:54:13 +0800] "GET / HTTP/1.1" 200 227 http-bio-8088-exec-1 499
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:22:54:13 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8088-exec-2 16
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:22:54:19 +0800] "POST /select-customer HTTP/1.1" 404 981 http-bio-8088-exec-3 0
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:22:59:01 +0800] "POST /select-customer HTTP/1.1" 404 981 http-bio-8088-exec-1 36
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:22:59:06 +0800] "GET / HTTP/1.1" 200 227 http-bio-8088-exec-2 32
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:22:59:08 +0800] "POST /select-customer HTTP/1.1" 404 981 http-bio-8088-exec-3 0
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:23:03:55 +0800] "GET / HTTP/1.1" 200 227 http-bio-8088-exec-2 69
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:23:03:58 +0800] "POST /select-customer HTTP/1.1" 404 981 http-bio-8088-exec-3 15
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:23:05:11 +0800] "GET / HTTP/1.1" 200 227 http-bio-8088-exec-1 38
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:23:05:13 +0800] "POST /select-customer HTTP/1.1" 404 981 http-bio-8088-exec-2 16
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:23:11:54 +0800] "POST /select-customer HTTP/1.1" 500 4145 http-bio-8088-exec-1 64
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:23:30:14 +0800] "GET / HTTP/1.1" 200 227 http-bio-8088-exec-1 54
+0:0:0:0:0:0:0:1 - - [27/Dec/2017:23:30:16 +0800] "POST /select-customer HTTP/1.1" 500 4145 http-bio-8088-exec-2 24
