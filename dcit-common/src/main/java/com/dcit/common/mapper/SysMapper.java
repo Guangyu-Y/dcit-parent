@@ -10,7 +10,6 @@ import org.apache.ibatis.annotations.UpdateProvider;
 
 public interface SysMapper<T> {
 	
-	//只是测试用例  项目中不能使用
 	@SelectProvider(type = SysMapperProvider.class, method = "dynamicSQL")
 	public int findCount();
 

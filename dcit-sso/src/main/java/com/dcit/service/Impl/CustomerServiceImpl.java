@@ -99,5 +99,15 @@ public class CustomerServiceImpl implements CustomerService{
 		customer = customerMapper.selectBycode(code);
 		return customer;
 	}
-
+	@Override
+	public Customer findCustomerByidentitycard(String cardno) {
+		Customer customer = new Customer();
+		customer.setCardno(cardno);
+		List<Customer> customerList = customerMapper.select(customer);
+		if(customerList.size()>0)
+		{
+			return customerList.get(0);
+		}
+		return null;
+	}
 }

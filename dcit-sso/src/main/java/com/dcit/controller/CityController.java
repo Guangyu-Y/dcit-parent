@@ -49,7 +49,7 @@ public class CityController extends BaseController{
 			if("0".equals(city.getParentid())){
 				resultList.add(city);
 				if(ifChilds(list,city.getId())){//判断是否有子集
-					List<City> childs = new ArrayList<>();  
+					List<City> childs = new ArrayList<City>();  
                     childs = getChildList(list,city.getId(),childs);  
                     resultList.addAll(childs); 
 				}

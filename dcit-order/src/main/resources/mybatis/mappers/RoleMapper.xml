@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dcit.mapper.RoleMapper">
+
+	<select id="findRolePrivilegeList" resultType="string">
+		select privilegeid from t_role_privilege where roleid = #{id}
+	</select>
+
+
+	<insert id="saveRolePrivilege">
+
+insert into t_role_privilege values(#{id},#{roleId},#{privilegeId})
+
+</insert>
+
+
+
+<delete id="deleteRolePrivilege">
+delete from t_role_privilege where roleid = #{roleId}
+</delete>
+
+<delete id="deleteUserRole">
+delete from t_user_role where roleid = #{roleId}
+</delete>
+</mapper>

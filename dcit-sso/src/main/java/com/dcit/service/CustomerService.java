@@ -20,6 +20,8 @@ public interface CustomerService {
 	void updateCustomer(Customer customer);
 	
 	Customer findCustomerByCode(String code);
+	
+	Customer findCustomerByidentitycard(String cardno);
 //
 //	void saveCustomerRole(String customerId, String[] roleIds);
 //

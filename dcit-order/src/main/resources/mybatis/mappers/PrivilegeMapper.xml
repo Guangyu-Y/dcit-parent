@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dcit.mapper.PrivilegeMapper">
+
+	<select id="findAll" resultType="Privilege">
+		select * from t_privilege
+	</select>
+
+	<delete id="deleteRolePri">
+	delete from t_role_privilege where privilegeid = #{PrivilegeId}
+	</delete>
+
+	
+</mapper>
