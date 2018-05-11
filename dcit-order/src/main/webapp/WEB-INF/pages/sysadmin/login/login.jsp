@@ -2,7 +2,7 @@
 <%@ include file="../../base.jsp" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>神州数码银行柜面系统</title>
+<title>YSU银行柜面系统</title>
 	<link rel="stylesheet" rev="stylesheet" type="text/css" href="${ctx}/staticfile/skin/default/css/login.css" media="all" />
 	<script src="${ctx}/staticfile/components/pngfix/DD_belatedPNG.js"></script>
 	<script> DD_belatedPNG.fix('*'); </script>
